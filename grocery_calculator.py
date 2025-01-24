@@ -32,7 +32,7 @@ def grocery_calculator():
     print('Input grocery item:')
     store = ['bread', 'eggs', 'milk', 'butter']
     price = [3, 6, 4, 2]
-    grocery_item = input()
+    grocery_item = input('Input grocery item:')
     grocery_dict = {'bread': 3, 'eggs': 6, 'milk': 4, 'butter': 2}
     total_cost = 0
 
@@ -42,7 +42,7 @@ def grocery_calculator():
     while grocery_item in store:
         total_cost = total_cost + grocery_dict[grocery_item]
         print('Input next grocery item:')
-        grocery_item = input()
+        grocery_item = input('Input grocery item:')
     print('Your total grocery bill is $'+str(total_cost))    
 
 

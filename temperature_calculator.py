@@ -26,7 +26,7 @@ def temperature_calculator():
 
     while True:
         print('Input a temperature')
-        temperature = input()
+        temperature = input('Input a temperature')
         if temperature == 'quit':
             print('Goodbye')
             break
