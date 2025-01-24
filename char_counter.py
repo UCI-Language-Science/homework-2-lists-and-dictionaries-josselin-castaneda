@@ -25,9 +25,18 @@
 # code should work for arbitrary strings, including the empty string.
 
 def char_counter():
-    # YOUR CODE GOES HERE
-    # You can delete the line below when you start adding code
-    pass
+    
+    import pprint
+    print('Insert message')
+    message = input()
+    count = {}
+
+    for char in message:
+        count.setdefault(char, 0)
+        count[char] = count[char] + 1
+    pprint.pprint(count)
+
+    pass 
 
 if __name__ == "__main__":
     char_counter()
