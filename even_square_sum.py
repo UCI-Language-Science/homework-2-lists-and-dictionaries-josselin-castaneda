@@ -9,9 +9,12 @@
 # For the list below, your code should print 44984
 #
 def even_square_sum():
-    numbers = [1, 62, 3, 57, 26, 8, 101, 200, 43, 20, 11]
+    numbers_list = [1, 62, 3, 57, 26, 8, 101, 200, 43, 20, 11]
+    even_numbers = [number for number in numbers_list if number%2==0] 
+    squares = [number**2 for number in even_numbers]
+    print(sum(squares))
+    
 
-    # YOUR CODE GOES HERE
 
 if __name__ == "__main__":
     even_square_sum()
