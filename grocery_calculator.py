@@ -31,9 +31,8 @@ def grocery_calculator():
     print('Input grocery item:')
     groceries = ['bread', 'eggs', 'milk', 'butter']
     users_items = input()
-    for index in groceries: 
-
-    print('Total:' + str(total))
+    
+\
 
     pass
 

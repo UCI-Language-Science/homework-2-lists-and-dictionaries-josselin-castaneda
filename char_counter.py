@@ -32,8 +32,10 @@ def char_counter():
     count = {}
 
     for char in message:
-        count.setdefault(char, 0)
-        count[char] = count[char] + 1
+        if count.get(char) != None:
+            count[char] = count[char] + 1
+        else:
+            count[char]=1
     pprint.pprint(count)
 
     pass 
