@@ -28,8 +28,13 @@
 # Your total grocery bill is $7
 
 def grocery_calculator():
-    # YOUR CODE GOES HERE
-    # You can delete the line below when you start adding code
+    print('Input grocery item:')
+    groceries = ['bread', 'eggs', 'milk', 'butter']
+    users_items = input()
+    for index in groceries: 
+
+    print('Total:' + str(total))
+
     pass
 
 if __name__ == "__main__":
